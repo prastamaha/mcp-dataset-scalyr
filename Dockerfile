@@ -69,4 +69,4 @@ ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 
 # Default command
-CMD ["python", "src/main.py"] 
+CMD ["python", "src/main.py", "--transport", "http", "--host", "0.0.0.0", "--port", "8080"] 
